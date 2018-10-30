@@ -1,0 +1,170 @@
+body{
+    background-color: #429afa;
+    padding: 2.4rem 2rem 0;
+}
+.lg_task_details{
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    padding: 0 0 4rem;
+    border-radius: 5px;
+}
+.morrow{
+    width: 100%;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color:#fd8948;
+}
+.morrow a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.morrow a img{
+    width: 100%;
+    display: inline-block;
+}
+.top{
+    padding:0.6rem 0.5rem 0.5rem 1rem;
+    background-color: #f8f8f8;
+    border-radius: 5px 5px 0 0;
+}
+
+.proImg{
+    width: 8rem;
+    height: 8rem;
+    float: left;
+}
+.proImg img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border:1px solid #f2f2f2;
+}
+.proCon{
+    float: right;
+    width: calc(100% - 9rem);
+}
+.proCon h5{
+    color:#000;
+    font-size: 1.7rem;
+    font-weight: bold;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* .moneyBox{
+    margin-top: 3rem;
+} */
+.moneyBox span{
+    color:#118eea;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+.moneyBox span.hint{
+    color:#999;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    display: inline-block;
+    margin: 0 1.2rem 0 0.3rem;
+}
+.service,
+.extra,
+.return,
+.buyNum,
+.aggregate{
+    height: 3.5rem;
+    line-height: 3.5rem;
+    padding: 0 1.5rem;
+}
+.service span.fl,
+.extra span.fl,
+.return span.fl,
+.buyNum span.fl,
+.aggregate span.fl{
+    color:#999;
+    font-size: 1.4rem;
+}
+.service span.fr,
+.extra span.fr,
+.return span.fr,
+.buyNum span.fr,
+.aggregate span.fr{
+    color:#118eea;
+    font-size: 2rem;
+}
+.taskMessage{
+    padding:0.2rem 0;
+    padding: 0 1.5rem;
+}
+.serial,
+.type{
+    height: 3.2rem;
+}
+.serial{
+    border-top:1px dashed #aaa;
+    line-height: 3rem;
+    margin-top: 0.5rem;
+}
+.type{
+    border-bottom:1px dashed #aaa;
+    line-height: 3rem;
+    margin-bottom: 0.5rem;
+}
+.serial span.fl,
+.type span.fl{
+    font-size: 1.4rem;
+    color:#999;
+}
+.serial span.fr,
+.type span.fr{
+    font-size: 1.4rem;
+}
+.type span.fr i{
+    width: 1.4rem;
+    height: 1.4rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-right: 0.2rem;
+}
+.type span.fr i.bg1,
+.type span.fr i.bg3{
+    background: url("/src/images/my_centre/taobao.png") no-repeat;
+    background-size: contain;
+}
+.type span.fr i.bg2,
+.type span.fr i.bg4{
+    background: url("/src/images/my_centre/tianmao.png") no-repeat;
+    background-size: contain;
+}
+.type span.fr i.bg5{
+    background: url("/src/images/my_centre/meilishuo.png") no-repeat;
+    background-size: contain;
+}
+.type span.fr i.bg6{
+    background: url("/src/images/my_centre/jingdong.png") no-repeat;
+    background-size: contain;
+}
+.type span.fr i.bg7{
+    background: url("/src/images/my_centre/mogujie.png") no-repeat;
+    background-size: contain;
+}
+.grab{
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    padding: 0 1.5rem;
+    margin: 3rem auto 0;
+}
+.grab a{
+    width: 100%;
+    background-color: #118eea;
+    color:#fff;
+    font-size: 1.6rem;
+    display: inline-block;
+    border-radius: 4px;
+}
